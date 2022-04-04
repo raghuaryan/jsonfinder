@@ -1,0 +1,2 @@
+var response = JSON.parse(responseBody);
+tests[" verify first_name"] = response.data.first_name == "janet";
